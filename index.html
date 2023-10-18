@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Destination of all song lovers</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Text:ital@1&family=Exo+2:ital,wght@0,400;1,300&family=Libre+Baskerville&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Text:ital@1&family=Exo+2:ital,wght@0,400;1,300&family=IBM+Plex+Mono:ital,wght@1,600&family=Josefin+Sans:wght@500&family=Libre+Baskerville&family=Pacifico&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./pngwing.com (1).png" alt="spotify"></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./premium.html">Premium</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song_list">
+            <h1>Here is the list of my favourite songs: </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="./covers/calm-down.jpeg" alt="1">
+                    <span class="songName">Calm Down - <span class="singer">Rema, Selena Gomez</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:59<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/closer.jpeg" alt="2">
+                    <span class="songName">Closer - <span class="singer">Fly By Nightcore</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:16<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/friends.jpg" alt="03">
+                    <span class="songName">Friends - <span class="singer">Marshmello, Anne Marie</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:25<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/people-you-know.jpg" alt="4">
+                    <span class="songName">People You Know - <span class="singer">Selena Gomez</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:14<i id="03" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/senorita.jpg" alt="5">
+                    <span class="songName">Senorita - <span class="singer">Shawn Mendes, Camila Cabello</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:11<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/shameless.jpeg" alt="6">
+                    <span class="songName">Shameless - <span class="singer">Camila Cabello</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 03:45<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/counting-star.jpeg" alt="7">
+                    <span class="songName">Counting Stars - <span class="singer">Fly By Nightcore</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 02:50<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./covers/souvenir.jpeg" alt="8">
+                    <span class="songName">Souvenir - <span class="singer">Selena Gomez</span></span>
+                    <span class="sonListPlay"><span class="timeStamp"> 02:42<i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="song_banner">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas main-icons fa-3x fa-step-backward" id="previous"></i>
+            <i class="far main-icons fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas main-icons fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="song_info">
+            <img src="./playing.gif" alt="progressBar" width="100px" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/97c3fe5db3.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
