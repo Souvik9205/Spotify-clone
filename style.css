@@ -22,7 +22,7 @@ a:hover {
 }
 nav>ul {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 0px;
     margin-bottom: 0px;
     gap: 30px;
